@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Alura</title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <section id="home" class="home">
+      <div class="header">
+        <div class="logo">
+            <img src="/Photos/logo-branco.png">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#products">Produtos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </div>  
+      <div class="content">
+        <h1>Barbearia Alura</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus non dolorem,
+             tenetur voluptate id porro deleniti molestiae architecto doloremque modi
+              aut eum itaque facere qui odit. Consectetur hic vel impedit!</p>
+        <ul>
+            <li>Atendimento aos Clientes</li>
+            <li>Profissionais Qualificados</li>
+            <li>Pontualidade</li>
+            <li>Limpeza</li>
+        </ul>
+        <button><a href="#">Agendamento</a></button>
+      </div>
+    </section>
+    <section id="about" class="about">
+        <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+        <div class="principal">
+            <img class="utensilios" src="/Photos/john-arano-CCTCHXEsan8-unsplash.jpg">
+            <div>
+                <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </div>
+        </div>
+        <div class="mapa">
+            <h3>Nosso estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <ul>
+				<li>
+					<h2>Cabelo</h2>
+					<img src="/Photos/cabelo.jpg">
+					<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+					<p class="produto-preco">R$ 25,00</p>
+                    <a href="#">Agende</a>
+				</li>
+				<li>
+					<h2>Barba</h2>
+					<img src="/Photos/barba.jpg">
+					<p class="produto-descricao">Corte e desenho profissional de barba</p>
+					<p class="produto-preco">R$ 18,00</p>
+                    <a href="#">Agende</a>
+				</li>
+				<li>
+					<h2>Cabelo + Barba</h2>
+					<img src="/Photos/cabelo+barba.jpg">
+					<p class="produto-descricao">Pacote completo de cabelo e barba</p>
+					<p class="produto-preco">R$ 35,00</p>
+                    <a href="#">Agende</a>
+				</li>
+			</ul>
+        </div>
+    </section>
+    <section id="contatos">
+        <div class="Boxcontatos">
+            <h1>Entre em contato conosco!</h1>
+        </div>
+        <div class="contatos">
+            <div class="links">
+            <ul>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            </ul>
+        </div>
+        <form>
+            <div class="form">
+                <div class="inputs">
+                    <input type="text" required>
+                    <i>Name</i>
+                </div>
+                <div class="inputs">
+                    <input type="email" required>
+                    <i>Email</i>
+                </div>
+                <div class="inputs">
+                    <input type="text" required>
+                    <i>Telefone</i>
+                </div>
+                <div class="inputscomments">
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                    <i>Mensagem</i>
+                </div>
+            </div>
+            <div class="FormRight">
+                <div class="contentOne">
+                    <legend>Como prefere o nosso contato?</legend>
+                    <div class="radios">
+                        <ul>
+                            <li><label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label></li>
+                            <li><label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label></li>
+                            <li><label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+    
+                <div class="contentTwo">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+    
+                <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                <div class="inputs">
+                    <input class="inputLogin" type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
+        </div>
+    </section>
+    <footer>
+        <img src="/Photos/logo-branco.png" width="100px">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+</body>
+</html>
